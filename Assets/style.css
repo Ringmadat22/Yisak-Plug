@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: blanchedalmond;
+    text-align: rights;
+    position:fixed;
+    padding-left: 475px;
+    padding-right: 642px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 0px;
+}
+.navbar ul li {
+    display: inline;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#000000;
+    text-align: center;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffcb03;
+    text-decoration-thickness: 5px;
+}
+.header {
+    background-color: blanchedalmond;
+    padding-top: 30px;
+    padding-bottom: 600px;
+}
+.header .wrapper .nav {
+    text-align: center;
+    overflow: hidden;
+
+}
+.header .wrapper .nav ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 3rem 3rem;
+}
+.header .wrapper .nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+}
+.header .wrapper .wrapper1 {
+    width: 49%;
+    float: left;
+    margin-top: 70px;
+    background-color: blanchedalmond;
+}
+.header .wrapper .wrapper1 .wrapper1-1 {
+    padding-top: 130px;
+    margin-left: 120px;
+
+}
+.header .wrapper .wrapper1 .wrapper1-1 .h1 {
+    font-size: 50px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span {
+     color:#ffcb03;
+}
+.header .wrapper .wrapper1 .wrapper1-1 .h2 {
+    color: #000000;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header .wrapper .wrapper1 .wrapper1-1 button {
+    width: 180px;
+    height: 56px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(27, 9, 42), rgb(236, 190, 5));
+    padding: 15px 30px;
+    border: none;
+    border-radius: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.main {
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.main .main1 {
+    margin-bottom: 0px;
+    padding-bottom: 200px;
+}
+.main .main1 .h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.main .main1 .services {
+    width: 30%;
+    float: left;
+    background-color: blanchedalmond;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    border-radius: 9px;
+    
+}
+
+.main .main1 .services .services1 {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.main .main1 .services .services1 h1 {
+    margin-left: 180px;
+}
+.main  .products{
+    padding-top:50px ;
+    padding-bottom: 00px;
+}
+.main .products button {
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(27, 9, 42), rgb(236, 190, 5));
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.main .products .h1 {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+
+}
+.main .products .h2 {
+    padding-left: 40px;
+    font-weight: 600;
+    font-size: 30px ;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.main .products .laptops {
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 5px 8px 15px #565555af;
+}
+.main .products .h2-1 {
+    margin-top: 550px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.main .products .mobile {
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 5px 8px 15px #313030af;
+}
+.products .h1-1 {
+    margin-top: 650px;
+    margin-bottom: 60px;
+    margin-left: 45px;
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+}
+.products .submit {
+    margin-right: 35px;
+    margin-left: 35px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    background-color: blanchedalmond;
+}
+.products input {
+    width: 260px;
+    height: 50px;
+    margin-left: 550px;
+    border-top: 5px solid #666464;
+    border-radius: 9px;
+    border-left: 5px solid #504d4d;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.3;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 3;
+}
+.footer {
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.footer .footer-h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.footer .footer-h1 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.footer .footer-p {
+    color: #fff;
+    text-align:center;
+    position:bottom ;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.footer .footer-p a {
+    text-decoration: none;
+    color: #ffcb03;
+}
+.footer .footer-p a:hover {
+    text-decoration: underline;
+}
